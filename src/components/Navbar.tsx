@@ -11,16 +11,16 @@ const Navbar = () => {
             </span>
 
             <div className='flex gap-8 items-center'>
-                <span>
+                <span className='hover:border-b-2 cursor-pointer hover:font-bold hover:border-white'>
                     <p>home</p>
                 </span>
-                <span>
+                <span className='hover:border-b-2 cursor-pointer hover:font-bold hover:border-white'>
                     <p>shop</p>
                 </span>
-                <span>
+                <span className='hover:border-b-2 cursor-pointer hover:font-bold hover:border-white'>
                     <p>about</p>
                 </span>
-                <span>
+                <span className='hover:border-b-2 cursor-pointer hover:font-bold hover:border-white'>
                     <p>contact</p>
                 </span>
 

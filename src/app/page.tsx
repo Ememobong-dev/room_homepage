@@ -27,7 +27,7 @@ export default function Home() {
                   <p className="my-5 text-darkGray">
                   We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love. 
                   </p>
-                  <span className="flex text-xl font-semibold items-center gap-5">
+                  <span className="flex text-xl cursor-pointer hover:translate-x-3 font-semibold items-center gap-5 hover:text-darkGray">
                     <p className="tracking-[0.7em] uppercase">Shop</p>
                     <p className="tracking-[0.7em] uppercase">Now</p>
                     <span>
@@ -36,14 +36,19 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              <div className="bg-black w-40 flex justify-between p-8">
-                <span>
-                  <Image src={carouselLeftIcon} alt="carouselLeftIcon" />
-                </span>
-                <span>
-                  <Image src={carouselRightIcon} alt="carouselRightIcon" />
-                </span>
+              <div className="flex">
+                <div className="bg-black hover:bg-veryDarkGray hover:cursor-pointer flex justify-between p-8">
+                  <span className="h-full">
+                    <Image src={carouselLeftIcon} alt="carouselLeftIcon" />
+                  </span>
+                </div>
+                <div className="hover:bg-veryDarkGray  hover:cursor-pointer  bg-black flex justify-between p-8">
+                  <span className=" h-full">
+                    <Image src={carouselRightIcon} alt="carouselRightIcon" />
+                  </span>
+                </div>
               </div>
+             
             </div>
           </Col>
         </Row>
