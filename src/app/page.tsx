@@ -20,7 +20,7 @@ export default function Home() {
             </span>
           </Col>
           <Col lg={10}>
-            <div className="bg-white w-full h-full ">
+            <div className="relative flex flex-col justify-center  bg-white w-full h-full ">
               <div className="flex flex-col justify-center text-black md:p-28 items-center">
                 <div>
                   <h2 className="font-bold text-4xl">Discover innovative ways to decorate</h2>
@@ -36,7 +36,7 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              <div className="flex">
+              <div className="flex absolute left-0 bottom-0">
                 <div className="bg-black hover:bg-veryDarkGray hover:cursor-pointer flex justify-between p-8">
                   <span className="h-full">
                     <Image src={carouselLeftIcon} alt="carouselLeftIcon" />
@@ -48,31 +48,30 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-             
             </div>
           </Col>
         </Row>
       </div>
       <div>
         <Row>
-          <Col lg={7}>
+          <Col lg={5} xxl={8}>
             <span>
               <Image src={subHero1} className="w-full h-full" alt="sub-hero" />
             </span>
           </Col>
-          <Col lg={10}>
+          <Col lg={12} xxl={8}>
           <div className="bg-white w-full h-full ">
               <div className="flex flex-col justify-center text-black md:p-14 items-center">
                 <div>
-                  <h2 className="font-bold uppercase text-4xl">About our funitures</h2>
-                  <p className="my-5 font-semibold text-lg text-darkGray">
+                  <h2 className="font-bold uppercase tracking-[0.5em] text-2xl">About our funitures</h2>
+                  <p className="my-5 text-lg text-darkGray">
                   Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.
                   </p>
                 </div>
               </div>
             </div>
           </Col>
-          <Col lg={7}>
+          <Col lg={7} xxl={8}>
             <span>
               <Image src={subHero2} className="w-full h-full"  alt="sub-hero" />
             </span>
