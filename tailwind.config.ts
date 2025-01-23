@@ -14,6 +14,10 @@ export default {
         white: "hsl(0, 0%, 100%)",
         veryDarkGray: "hsl(0, 0%, 27%)",
       },
+      fontFamily: {
+        leagueSpartanReg: ["league-spartan-regular", "sans-serif"],
+        leagueSpartanBold: ["league-spartan-bold", "sans-serif"],
+      }
     },
   },
   plugins: [],
